@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ButtonsPagePo {
     //Declaring our WebElements
-     private WebDriver driver;
+     private final WebDriver driver;
     public ButtonsPagePo(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(this.driver, this); // Needed to use the @FindByMethods
@@ -52,7 +52,7 @@ public class ButtonsPagePo {
     //Asserts
     public void checkDoubleClickMeLabel() {
         String actualText = doubleClickMeLabel.getText();
-        String expectedText = "You have done a double click!";
+        String expectedText = "You have done a double click";
         Assert.assertEquals(expectedText, actualText);
     }
 
