@@ -1,5 +1,11 @@
-C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\Class6BDD\PO\ProductsPo.java
-C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\Class6BDD\DriverClass.java
-C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\Class6BDD\PO\LoginPo.java
-C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\Class6BDD\Runner.java
-C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\Class6BDD\SwagLabsTests.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\driver\DriverManager.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\steps\LoginSteps.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\PO\ProductsPo.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\PO\CartPo.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\driver\DriverBase.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\steps\CommonSteps.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\steps\ProductSteps.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\SwagLabsTests.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\PO\LoginPo.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\Runner.java
+C:\Users\diegop\Documents\JavaSeleniumCourse\src\test\java\steps\CartSteps.java
