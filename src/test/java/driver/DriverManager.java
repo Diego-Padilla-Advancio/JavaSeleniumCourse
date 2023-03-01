@@ -16,6 +16,7 @@ public class DriverManager extends DriverBase {
     public DriverManager(){
         super(getDriver());
         driver = getDriver();
+        this.driver.manage().window().maximize();
     }
 
     public void quitBrowser() {

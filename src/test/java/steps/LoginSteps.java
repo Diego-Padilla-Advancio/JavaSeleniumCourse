@@ -21,6 +21,5 @@ public class LoginSteps extends DriverManager {
     @And("I click login button")
     public void iClickLoginButton() {
         loginPo.clickLoginButton();
-        Assert
     }
 }

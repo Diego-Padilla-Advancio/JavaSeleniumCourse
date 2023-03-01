@@ -8,6 +8,7 @@ public class DriverBase extends ThucydidesWebDriverSupport {
 
     public DriverBase(WebDriver driver){
         this.driver = driver;
+
         useDriver(getDriver());
     }
 }

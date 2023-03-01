@@ -27,16 +27,13 @@ public class ProductsPo {
 
     @FindBy(xpath = "  //*[@id=\"add-to-cart-sauce-labs-backpack\"]")
     WebElement backpackHeaderAddButton;
-
-
     @FindBy(id = "react-burger-menu-btn")
     WebElement burgerCornerButton;
     @FindBy(id = "inventory_sidebar_link")
     WebElement allItemsSideMenuButton;
-
     @FindBy(xpath = "//a[@class='shopping_cart_link']")
     WebElement shoppingKartButton;
-
+                                        //div[text() = 'Sauce Labs Bolt T-Shirt']/parent::a/following-sibling::div
     String parametrizedHeaderProduct = "//div[contains(text(), '%s')]/parent::a/following-sibling::div";
 
     public void clickBurgerButton() {
@@ -66,9 +63,12 @@ public class ProductsPo {
 
 
     public String getDescriptionOfGivenHeader(String header){
+        System.out.println("header = " + header);
+       System.out.println("parametrizedHeaderProduct = " + parametrizedHeaderProduct);
         String completeXpath = String.format(parametrizedHeaderProduct, header);
         System.out.println("completeXpath = " + completeXpath);
         WebElement currentElement = driver.findElement(By.xpath(completeXpath));
+        System.out.println("The item's description is: ");
         return currentElement.getText();
     }
 

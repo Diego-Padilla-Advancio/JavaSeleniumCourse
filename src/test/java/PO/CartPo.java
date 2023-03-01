@@ -30,7 +30,7 @@ public class CartPo  {
     public void clickRemoveFirstItemButton(){removeFirstItemButton.click();}
 
     public void assertInventoryIsEmpty(){
-      //  Assert.assertFalse(inventoryElement.isDisplayed());
+       // Assert.assertFalse(inventoryElement.isDisplayed());
         Assert.assertTrue(inventoryElementList.isEmpty());
     }
 
